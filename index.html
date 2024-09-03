@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trababajo 2</title>
+</head>
+<body>
+    <header>
+        <h1>Mercado</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li class="navelem"><a href="#Productos">Productos</a></li>
+            <li class="navelem"><a href="#Comparativa">Comparativa</a></li>
+            <li class="navelem"><a href="#Contacto">Contacto</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <video controls src="media/cocasinazucar.mp4"></video>        
+        </div>
+        <section id="Productos">
+            <h2>Productos</h2>
+        <div>
+            <img src="media/coca500ml.jpg" width="200px" height="200px" alt="Coca Cola">
+            <p>Coca Cola 500 <span>ml</span></p>
+            <h3>$50</h3>
+        </div>
+        <div>
+            <img src="media/sprite500ml.jpg" width="200px" height="200px" alt="Coca Cola">
+            <p>Sprite 500 <span>ml</span></p>
+            <h3>$52</h3>
+        </div>
+        </section>
+        <section id="Contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section id="Comparativa">
+            <h2>Comparativa Productos</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Productos</th>
+                        <th>Tamaño</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Coca Cola</td>
+                        <td>500 ml</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Coca Cola</td>
+                        <td>1.5 L</td>
+                        <td>130</td>
+                    </tr>
+                    <tr>
+                        <td>Sprite</td>
+                        <td>500 ml</td>
+                        <td>52</td>
+                    </tr>
+                    <tr>
+                        <td>Sprite</td>
+                        <td>1.5 L</td>
+                        <td>135</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="Mas_productos">
+            <h3>Mas Productos</h3>
+            <ol>
+                <li>
+                    <a href="https://www.lays.com/">Lays</a>
+                </li>
+                <li>
+                    <a href="https://www.coca-cola.com/ar/es/brands/powerade">Powerade</a>
+                </li>
+                <li>
+                    <a href="https://www.coca-cola.com/ar/es/brands/ades">Ades</a>
+                </li>
+                
+            </ol>
+        </section>
+    </main>
+    
+    <footer>
+        <h5>Todos los derechos son reservados, leer <a style="color: black; text-decoration:underline;" href="">bases y condiciones</a></h5>
+        <h6>Mercado 2024</h6>
+    </footer>
+</body>
+</html>
