@@ -1,1 +1,1 @@
-Para la ejecución descargar el archivo del repositorio y ejecutar el archivo Tp1 en un navegador web (Ej:Chrome)
+Para la ejecución descargar el archivo del repositorio y ejecutar el archivo "index" en un navegador web (Ej:Chrome)
