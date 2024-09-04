@@ -7,15 +7,16 @@
     <title>Trababajo 2</title>
 </head>
 <body>
-    <header>
-        <h1>Mercado</h1>
-    </header>
+    
     
     <nav>
+        <h1>Mercado</h1>
         <ul>
+            
             <li class="navelem"><a href="#Productos">Productos</a></li>
-            <li class="navelem"><a href="#Comparativa">Comparativa</a></li>
             <li class="navelem"><a href="#Contacto">Contacto</a></li>
+            <li class="navelem"><a href="#Mas_productos">Mas Productos</a></li>
+            
             
         </ul>
     </nav>
@@ -25,69 +26,54 @@
         </div>
         <section id="Productos">
             <h2>Productos</h2>
-        <div>
-            <img src="media/coca500ml.jpg" width="200px" height="200px" alt="Coca Cola">
-            <p>Coca Cola 500 <span>ml</span></p>
-            <h3>$50</h3>
-        </div>
-        <div>
-            <img src="media/sprite500ml.jpg" width="200px" height="200px" alt="Coca Cola">
-            <p>Sprite 500 <span>ml</span></p>
-            <h3>$52</h3>
-        </div>
+            
+            <div class="contenedorProductos">
+                <div class="item">
+                    <img src="media/coca500ml.jpg" width="200px" height="200px" alt="Coca Cola">
+                    <p>Coca Cola 500 <span>ml</span></p>
+                    <h3>$50</h3>
+                </div>
+                <div class="item">
+                    <img src="media/sprite500ml.jpg" width="200px" height="200px" alt="Coca Cola">
+                    <p>Sprite 500 <span>ml</span></p>
+                    <h3>$52</h3>
+                </div>
+                <div class="item">
+                    <img src="media/cocazero500ml.jpg" width="200px" height="200px" alt="Coca Cola">
+                    <p>Coca Cola Zero 500 <span>ml</span></p>
+                    <h3>$50</h3>
+                </div>
+                <div class="item">
+                    <img src="media/spritezero500ml.jpg" width="200px" height="200px" alt="Coca Cola">
+                    <p>Sprite Zero 500 <span>ml</span></p>
+                    <h3>$52</h3>
+                </div>
+            </div>
         </section>
+        <hr>
         <section id="Contacto">
             <h2>Contacto</h2>
             <form action="#" method="post">
-                <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" required><br>
+                <label class="lnombre" for="nombre">Nombre:</label>
+                <input class="inombre" type="text" id="nombre" name="nombre" required><br>
 
-                <label for="email">Correo electrónico:</label><br>
-                <input type="email" id="email" name="email" required><br>
+                <label class="lemail" for="email">Correo electrónico:</label>
+                <input class="iemail" type="email" id="email" name="email" required><br>
 
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+                <label class="lmensaje" for="mensaje">Mensaje:</label><br>
+                <textarea class="imensaje" id="mensaje" name="mensaje" rows="4" required></textarea>
 
-                <input type="submit" value="Enviar">
+                <input class="enviar" type="submit" value="Enviar">
             </form>
         </section>
-        <section id="Comparativa">
-            <h2>Comparativa Productos</h2>
-            <table border="1">
-                <thead>
-                    <tr>
-                        <th>Productos</th>
-                        <th>Tamaño</th>
-                        <th>Precio</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Coca Cola</td>
-                        <td>500 ml</td>
-                        <td>50</td>
-                    </tr>
-                    <tr>
-                        <td>Coca Cola</td>
-                        <td>1.5 L</td>
-                        <td>130</td>
-                    </tr>
-                    <tr>
-                        <td>Sprite</td>
-                        <td>500 ml</td>
-                        <td>52</td>
-                    </tr>
-                    <tr>
-                        <td>Sprite</td>
-                        <td>1.5 L</td>
-                        <td>135</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        
+        
+    </main>
+    
+    <footer>
         <section id="Mas_productos">
             <h3>Mas Productos</h3>
-            <ol>
+            <ul>
                 <li>
                     <a href="https://www.lays.com/">Lays</a>
                 </li>
@@ -98,11 +84,10 @@
                     <a href="https://www.coca-cola.com/ar/es/brands/ades">Ades</a>
                 </li>
                 
-            </ol>
+            </ul>
+            <div class="ball"></div>
         </section>
-    </main>
-    
-    <footer>
+        <hr>
         <h5>Todos los derechos son reservados, leer <a style="color: black; text-decoration:underline;" href="">bases y condiciones</a></h5>
         <h6>Mercado 2024</h6>
     </footer>
